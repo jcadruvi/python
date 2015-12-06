@@ -1,0 +1,5 @@
+<testsuite errors="0" failures="0" name="nose2-junit" skipped="0" tests="1" time="0.022">
+  <testcase classname="tests.tests_unit.test_app.TestApp" name="test_var" time="0.000835">
+    <system-err />
+  </testcase>
+</testsuite>

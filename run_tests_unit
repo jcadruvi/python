@@ -5,7 +5,7 @@ export PYTHONPATH=$PWD/website-flask:${PYTHONPATH}
 # run tests with junit output for bamboo
 # the xml output file is configured using unittest.cfg (default: nose2-junit.xml) 
 
-nose2 tests.test_unit --junit-xml --coverage-report html
+nose2 tests.tests_unit --junit-xml --coverage-report html
 
 # convert coverage xml into clover supported format
 # coverage2clover -i coverage.xml -o coverage-clover.xml
